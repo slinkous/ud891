@@ -19,6 +19,8 @@ a:focus {
 .nav > li > a:focus {
   text-decoration: none;
   background: transparent;
+  /* margin-top: -0.25em; */
+  border-bottom: 1px solid gray;
 }
 
 .jumbotron .mdl-button {
