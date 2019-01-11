@@ -22,7 +22,7 @@
 
     this.el.addEventListener('keydown', this.handleKeyDown.bind(this));
     this.el.addEventListener('click', this.handleClick.bind(this));
-    this.setAttribute('role', 'radiogroup')
+    this.el.setAttribute('role', 'radiogroup')
     // Any more initialization to do here?
 
     var firstButton = true;
